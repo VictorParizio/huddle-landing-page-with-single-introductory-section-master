@@ -1,0 +1,71 @@
+@media (max-width: 1020px){
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-size: contain;
+        background-color: var(--bg-page);
+    }
+
+    header,
+    .page .container,
+    footer {
+        max-width: 570px;
+        flex-wrap: wrap;
+    }
+
+    header .logo {
+        width: 170px;
+        margin: 30px 0;
+    }
+
+    .page .about {
+        text-align: center;
+        margin: 30px;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+    }
+
+    .attribution{
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 580px){
+    header,
+    .page .container,
+    footer {
+        max-width: 400px;
+        flex-wrap: wrap;
+    }
+
+    header .logo {
+        width: 150px;
+    }
+
+    .page .container img{
+        max-width: 400px;
+    }
+
+    .page .about{
+        width: 300px;
+    }
+
+    .page .about .title{
+        font-size: 2.2rem;
+    }
+
+    .page .about button {
+        height: 40px;
+        width: 200px;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+    }
+
+    .attribution,
+    .attribution a{
+        font-size: 1.2rem;
+    }
+}

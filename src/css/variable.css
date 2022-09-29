@@ -1,0 +1,10 @@
+:root{
+    --heading: 'Poppins', sans-serif;
+    --body: 'Open Sans', sans-serif;
+}
+
+:root{
+    --bg-page: hsl(257, 40%, 49%);
+    --ativo: hsl(300, 69%, 71%);
+    --base: hsl(0, 0%, 100%);
+}

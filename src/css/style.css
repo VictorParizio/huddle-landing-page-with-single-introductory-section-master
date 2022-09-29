@@ -1,0 +1,94 @@
+body {
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-size: cover;
+    background-color: var(--bg-page);
+    height: 100%;
+    max-width: 1440px;
+    flex-direction: column;
+}
+
+header {
+    width: 1020px;
+    align-items: flex-start;
+}
+
+header .logo {
+    width: 170px;
+    margin-top: 45px;
+    margin-bottom: 65px;
+}
+
+.page .about {
+    width: 410px;
+    margin: 0 0 75px 40px;
+}
+
+.page .about .title {
+    font-family: var(--heading);
+    font-size: 3.2rem;
+    font-weight: 700;
+    padding-bottom: 18px;
+    text-transform: capitalize;
+}
+
+.page .about .description {
+    line-height: 22px;
+    padding-bottom: 18px;
+}
+
+.page .about button {
+    background-color: var(--base);
+    color: var(--bg-page);
+    height: 45px;
+    width: 160px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: 0.2s ease-in-out;
+}
+
+.page .about button:hover {
+    background-color: var(--ativo);
+    color: var(--base);
+}
+
+.landing-page {
+    width: 570px;
+}
+
+.footer {
+    width: 1020px;
+    justify-content: end;
+    gap: 20px;
+    padding: 15px 0;
+}
+
+.footer .social i {
+    display: inline-flex;
+    font-size: 1.4rem;
+    border: solid 1px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+ 
+    margin: 0 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.footer .social i:hover{
+    color: var(--ativo);
+}
+
+.attribution{
+    margin-right: 155px;
+    transition: 0.2s ease-in-out;
+}
+
+.attribution a{
+    color: var(--ativo);
+    transition: 0.2s ease-in-out;
+}
+
+.attribution a:hover{
+    color: var(--base);
+}
