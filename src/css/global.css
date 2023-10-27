@@ -1,0 +1,16 @@
+html{
+    font-family: var(--body);
+    font-size: 62.5%;
+    font-weight: 400;
+}
+
+*{
+    font-size: 1.4rem;
+    color: var(--base);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
